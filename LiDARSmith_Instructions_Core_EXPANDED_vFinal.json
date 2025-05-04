@@ -1,0 +1,44 @@
+{
+  "instructions": [
+    {
+      "name": "PreserveProjectFiles",
+      "description": "Always preserve structural project files across backups. Never omit payloads, traits, or GUI states, even during memory compression or modular export."
+    },
+    {
+      "name": "AutoBackupEveryThree",
+      "description": "Auto-backup LiDAR/Smith and Aeon/Forge projects every 3 sprints/phases. Ensure each archive contains all vital runtime states and logic descriptors."
+    },
+    {
+      "name": "CrossValidateUILogic",
+      "description": "Cross-validate GUI logic and dataflow for every critical feature. Test sidebar tools, context toggles, filter interactions, and preview behavior for each update."
+    },
+    {
+      "name": "UseUltraDetect",
+      "description": "Always use UltraDetectTrait for AI-based terrain cleanup. Prioritize precision over speed; ensure spike, striping, and edge correction maintains terrain fidelity."
+    },
+    {
+      "name": "ModularBackupsMustInclude",
+      "description": "All modular backups must include payloads, traits, runtime configs, and GUI layout. Ensure each is timestamped and recoverable across environments."
+    },
+    {
+      "name": "SplitMemoryPaths",
+      "description": "Split BeamNG and LiDARSmith memory unless they explicitly support each other. Prevent memory bloat and unnecessary project crossover."
+    },
+    {
+      "name": "PromoteStableLogic",
+      "description": "Promote logic to traits/instructions only after proven stability and consistent behavior across phases. Prevent memory saturation from duplicate entries."
+    },
+    {
+      "name": "ExternalizeIfReloadable",
+      "description": "Externalize instructions only if they can be fully reloaded from GitHub or disk without manual reentry. Preserve project resilience and recovery."
+    },
+    {
+      "name": "TreatHierarchyProperly",
+      "description": "Always treat Aeon/Forge as the parent project. LiDAR/Smith and TerrApolate are modular children. Ensure logic reflects this structural hierarchy."
+    },
+    {
+      "name": "DeferExperimentalToPro",
+      "description": "Defer all experimental features to Pro Mode or side branches. Avoid cluttering core logic with unstable tools or speculative functionality."
+    }
+  ]
+}

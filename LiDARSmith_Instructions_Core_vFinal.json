@@ -1,0 +1,14 @@
+{
+  "instructions": [
+    "Always preserve structural project files across backups.",
+    "Auto-backup LiDAR/Smith and Aeon/Forge every 3 sprints/phases.",
+    "Cross-validate GUI logic and dataflow for every critical feature.",
+    "Use UltraDetectTrait to maintain top-tier AI-driven cleaning tools.",
+    "Modular backups must include payloads, traits, runtime, and GUI.",
+    "Split BeamNG and LiDAR/Smith memory paths unless explicitly linked.",
+    "Minimize memory bloat by promoting stable logic to traits/instructions.",
+    "Only externalize instructions when fully reloadable from GitHub repo.",
+    "Treat Aeon/Forge as parent; LiDAR/Smith and TerrApolate as child modules.",
+    "Defer experimental features to separate branches or Pro Mode when stable."
+  ]
+}

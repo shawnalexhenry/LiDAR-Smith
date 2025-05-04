@@ -1,0 +1,44 @@
+{
+  "traits": [
+    {
+      "name": "LiDARSmith_CoreBackbone",
+      "description": "Central framework managing UI, processing pipeline, terrain filters, and integration logic for LiDAR/Smith. Supports phase-based sprint development and modular feature toggling."
+    },
+    {
+      "name": "LiDARSmith_MemorySyncTrait",
+      "description": "Ensures safe synchronization of memory instructions, traits, and state tracking across all LiDARSmith sprints. Handles auto-export and rollback compatibility with backups."
+    },
+    {
+      "name": "LiDARSmith_BackupValidatorTrait",
+      "description": "Runs consistency checks on backups, confirming that payloads, GUI states, traits, and instructions are intact and restorable before backup finalization."
+    },
+    {
+      "name": "LiDARSmith_UltraDetectTrait",
+      "description": "Powers advanced AI/ML-based artifact detection, enabling terrain blemish identification, spike removal, and data anomaly cleaning with adjustable strength levels."
+    },
+    {
+      "name": "LiDARSmith_UIClarityTrait",
+      "description": "Maintains high-standard GUI clarity, layout intuitiveness, and icon behavior. Governs sidebar tool logic, context-sensitive option displays, and live-preview toggles."
+    },
+    {
+      "name": "AeonForge_MasterProjectTrait",
+      "description": "Defines the parent meta-project that oversees LiDARSmith, TerrApolate, and Synthetic Terrain systems. Used for macro-level control, knowledge transfer, and structural inheritance."
+    },
+    {
+      "name": "AeonForge_StratumRuntimeTrait",
+      "description": "Governs the simulation engine core of Aeon/Forge. Enables tectonic plate logic, terrain dynamics, geological field evolution, and heat/stress map runtime behaviors."
+    },
+    {
+      "name": "TerrApolate_TerrainExtrapolatorTrait",
+      "description": "Drives the extrapolation of heightmaps or terrain data from incomplete inputs. Merges geological inference, erosion physics, and satellite pattern logic into near-LiDAR quality estimation."
+    },
+    {
+      "name": "TerrApolate_DataSynthesisTrait",
+      "description": "Handles synthesis of terrain data using multiple sources such as satellite, DEMs, and inferred geological models. Enables filling in terrain gaps where LiDAR is missing or corrupted."
+    },
+    {
+      "name": "SyntheticEarth_TerrainInferenceTrait",
+      "description": "Advanced terrain generation trait that learns from high-fidelity sources to simulate realistic terrain features in non-LiDAR regions, driving future planet-scale modeling."
+    }
+  ]
+}
